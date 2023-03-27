@@ -6,7 +6,7 @@ namespace ExecptionCommon
 {
     public interface ICustomer
     {
-        IAsyncEnumerable<CustomerStreamDto> GetCustomersList(GetCustomersParameterDTO poParameter);
+        IAsyncEnumerable<CustomerStreamDto> GetCustomersList(GetCustomersParameterDto poParameter);
         CustomerResultDto GetCustomerByTd(GetCustomerByIdParameterDTO poParameter);
     }
 }

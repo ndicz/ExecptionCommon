@@ -3,15 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ExecptionCommon;
 
-namespace ExeptionBack
+namespace ExceptionBack
 {
-    public class GetCustomerDbParameterDTO
+    public class GetCustomersDbParameterDTO
     {
         public int CustomerCount { get; set; }
-
     }
-
-    
 }

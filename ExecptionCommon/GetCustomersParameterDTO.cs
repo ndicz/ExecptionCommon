@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ExecptionCommon
 {
-    public class GetCustomersParameterDTO
+    public class GetCustomersParameterDto
     {
         public int CustomerCount { get; set; }
     }
